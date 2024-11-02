@@ -46,13 +46,13 @@ Run the application:
 6. Access the API: Open your browser or a tool like Postman and navigate to http://127.0.0.1:8000/.
 
 7. API Endpoints
-User Registration: POST /auth/register
-User Login: POST /auth/login
-Create Student: POST /students/create-student
-Get Student: GET /students/get-student
-Get All Students: GET /students/get-students
-Update Student: PUT /students/update-student/{student_id}
-Delete Student: DELETE /students/delete-student/{student_id}
+   User Registration: POST /auth/register \
+   User Login: POST /auth/login \
+   Create Student: POST /students/create-student \
+   Get Student: GET /students/get-student \
+   Get All Students: GET /students/get-students \
+   Update Student: PUT /students/update-student/{student_id} \
+   Delete Student: DELETE /students/delete-student/{student_id} \
 
 ## License
 This project is licensed under the MIT License.
