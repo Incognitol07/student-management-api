@@ -1,3 +1,4 @@
 """An api for a student management system"""
 
-__version__ = '1.0'
+from .main import app  
+__all__ = ["app"] 
